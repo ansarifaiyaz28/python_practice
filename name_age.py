@@ -11,7 +11,8 @@ def age_func(age):
     return datetime.datetime.now().year + (100-age) #get present year + years to reach 100 year old
     
       
-name = input("Name: ")
-age = input("Age: ")
+name = input("Name: ") #gives str data types
+age = input("Age: ") #gives str data types
+#so we need to change age to integer type
 print("In ",age_func(int(age)),", " + name + " will turn 100 years old.")
 
